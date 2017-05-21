@@ -55,8 +55,8 @@ def predict(tweets):
 
 tweets = ['cruzeiro tem um bom time', 'acompanhe os jogos da primeira rodada',
           'muito ruim esse jogo do cruzeiro', 'cruzeiro! :)',
-          'Jogo morno entre cruzeiro e são paulo',
-          'Meu são paulo perdeu hoje :\'(']
+          'Jogo morno entre cruzeiro e sport',
+          'Meu sport perdeu hoje :\'(']
 
 predictions = predict(tweets)
 for prediction, tweet in zip(predictions, tweets):

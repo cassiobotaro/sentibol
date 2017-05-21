@@ -1,5 +1,7 @@
-# sentibol
-Notebook feito para analisar o case do Sentibol
+# Sentibol
+Notebook e códigos feitos para analisar o case do Sentibol
+
+*Requer python 3.6+*
 
 Apresentação da plataforma
 

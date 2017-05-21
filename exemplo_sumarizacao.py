@@ -12,15 +12,15 @@ def compare_tweet_jaccard(tweet, tweet_compare):
     calc = float(intersection_size) / (len(words_tweet) + len(words_compare)
                                        - intersection_size)
 
-    if calc >= 0.40:  # Define o quao semelhante é um tweet com o outro
+    if calc >= 0.20:  # Define o quao semelhante é um tweet com o outro
         return True  # se tweet igual a tweet_compare
     return False
 
 
-tweets = ['esse cruzeiro jogou muito', 'parabéns pela vitória cruzeiro',
+tweets = ['o cruzeiro jogou muito bem', 'parabéns pela vitória cruzeiro',
           'ainda acho o cruzeiro ruim', 'o cruzeiro não jogou bem',
-          'cruzeiro jogou contra o são paulo',
-          'primeira rodada o cruzeiro enfrentou o são paulo',
+          'cruzeiro jogou contra o sport',
+          'primeira rodada o cruzeiro enfrentou o sport',
           'bela vitória do cruzeiro', 'mais uma vitória do cruzeiro']
 
 tf_vectorizer = TfidfVectorizer(

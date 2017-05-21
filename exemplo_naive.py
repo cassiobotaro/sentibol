@@ -3,10 +3,10 @@ from nltk.corpus import stopwords
 from sklearn.naive_bayes import MultinomialNB
 
 classificator = MultinomialNB(alpha=.01)
-training_set = ['esse cruzeiro jogou muito', 'parabéns pela vitória cruzeiro',
+training_set = ['o cruzeiro jogou muito bem', 'parabéns pela vitória cruzeiro',
                 'ainda acho o cruzeiro ruim', 'o cruzeiro não jogou bem',
-                'cruzeiro jogou contra o são paulo',
-                'primeira rodada o cruzeiro enfrentou o são paulo']
+                'cruzeiro jogou contra o sport',
+                'primeira rodada o cruzeiro enfrentou o sport']
 labels = [1, 1, -1, -1, 0, 0]
 tf_vectorizer = TfidfVectorizer(stop_words=stopwords.words('portuguese'),
                                 analyzer='word', ngram_range=(1, 1),
