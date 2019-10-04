@@ -2,7 +2,16 @@
 
 Notebook e códigos feitos para analisar o case do Sentibol
 
+## Instalação
+
 **Requer python 3.6+**
+```
+$ pip install -r requirements.txt
+```
+
+## Como rodar
+
+`jupyter notebook`
 
 ## Apresentações:
 
