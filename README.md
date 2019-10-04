@@ -6,6 +6,8 @@ Notebook e códigos feitos para analisar o case do Sentibol
 
 **Requer python 3.6+**
 ```
+$ python -m venv .venv
+$ source .venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
